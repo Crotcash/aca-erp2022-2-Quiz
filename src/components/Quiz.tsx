@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { questions } from "../../../aca-erp2022-2-Quiz/src/data/questions";
+import { questions } from "../data/questions";
 import QuestionCard from "./QuestionCard";
 import Summary from "./Summary";
 
