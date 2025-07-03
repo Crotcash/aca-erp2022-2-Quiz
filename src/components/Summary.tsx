@@ -1,5 +1,5 @@
 
-import { questions } from "../../../aca-erp2022-2-Quiz/src/data/questions";
+import { questions } from "../data/questions"; 
 
 interface Props {
   answers: number[];
