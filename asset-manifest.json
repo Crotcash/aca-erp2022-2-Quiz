@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Crotcash/aca-erp2022-2-Quiz/static/css/main.073c9b0a.css",
+    "main.js": "/Crotcash/aca-erp2022-2-Quiz/static/js/main.1a5cf9ec.js",
+    "static/js/787.97d756b1.chunk.js": "/Crotcash/aca-erp2022-2-Quiz/static/js/787.97d756b1.chunk.js",
+    "index.html": "/Crotcash/aca-erp2022-2-Quiz/index.html",
+    "main.073c9b0a.css.map": "/Crotcash/aca-erp2022-2-Quiz/static/css/main.073c9b0a.css.map",
+    "main.1a5cf9ec.js.map": "/Crotcash/aca-erp2022-2-Quiz/static/js/main.1a5cf9ec.js.map",
+    "787.97d756b1.chunk.js.map": "/Crotcash/aca-erp2022-2-Quiz/static/js/787.97d756b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1a5cf9ec.js"
+  ]
+}
