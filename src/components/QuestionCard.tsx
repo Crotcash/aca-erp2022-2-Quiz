@@ -1,5 +1,5 @@
+import type { Question } from "../type";
 
-import type { Question } from "../../../aca-erp2022-2-Quiz/src/type";
 
 interface Props {
   question: Question;
