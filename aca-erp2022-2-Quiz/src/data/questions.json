@@ -1,0 +1,354 @@
+[
+  {
+    "id": 1,
+    "question": "What command downloads a repo from GitHub to your computer?",
+    "options": ["git push", "git commit", "git fork", "git clone"],
+    "answerIndex": 3,
+    "explanation": "git clone is used to copy a remote repo to your local machine."
+  },
+  {
+    "id": 2,
+    "question": "Which command starts the Vite dev server?",
+    "options": ["npm install", "npm run dev", "npm build", "npm start"],
+    "answerIndex": 1,
+    "explanation": "`npm run dev` starts the Vite development server."
+  },
+  {
+    "id": 3,
+    "question": "Which hook is used for managing component state?",
+    "options": ["useEffect", "useState", "useRef", "useContext"],
+    "answerIndex": 1,
+    "explanation": "`useState` creates state variables in functional components."
+  },
+  {
+    "id": 4,
+    "question": "Which TypeScript type is used to describe an object structure?",
+    "options": ["interface", "array", "string", "type"],
+    "answerIndex": 0,
+    "explanation": "`interface` defines object shapes in TypeScript."
+  },
+  {
+    "id": 5,
+    "question": "How do you store data across page refreshes?",
+    "options": ["useState", "useEffect", "localStorage", "session"],
+    "answerIndex": 2,
+    "explanation": "`localStorage.setItem()` stores data in the browser persistently."
+  },
+  {
+    "id": 6,
+    "question": "Which extension is used for TypeScript React files?",
+    "options": [".ts", ".jsx", ".tsx", ".json"],
+    "answerIndex": 2,
+    "explanation": ".tsx files are used for TypeScript + JSX."
+  },
+  {
+    "id": 7,
+    "question": "What file is used to configure Vite?",
+    "options": ["vite.json", "vite.config.ts", "vite.js", "vitefile.js"],
+    "answerIndex": 1,
+    "explanation": "`vite.config.ts` is the configuration file for Vite projects."
+  },
+  {
+    "id": 8,
+    "question": "How do you declare a constant in JavaScript?",
+    "options": ["let", "var", "const", "define"],
+    "answerIndex": 2,
+    "explanation": "`const` declares a read-only constant."
+  },
+  {
+    "id": 9,
+    "question": "Which of these is a valid JSX element?",
+    "options": ["<div/>", "<div></div>", "<Div>", "Both A and B"],
+    "answerIndex": 3,
+    "explanation": "Both self-closing and paired divs are valid JSX."
+  },
+  {
+    "id": 10,
+    "question": "Which method is used to render a list in React?",
+    "options": ["for", "while", "map", "loop"],
+    "answerIndex": 2,
+    "explanation": "`.map()` is commonly used to render lists in JSX."
+  },
+  
+  {
+    "id": 11,
+    "question": "Which Vite command builds the project for production?",
+    "options": ["npm build", "npm run build", "vite build", "yarn build"],
+    "answerIndex": 1,
+    "explanation": "`npm run build` compiles your code and prepares it for deployment."
+  },
+  {
+    "id": 12,
+    "question": "Which HTML tag is used to include a React app in the browser?",
+    "options": ["<script>", "<div>", "<main>", "<root>"],
+    "answerIndex": 1,
+    "explanation": "React apps are typically mounted on a <div> with id='root'."
+  },
+  {
+    "id": 13,
+    "question": "What TypeScript keyword defines a custom object shape?",
+    "options": ["type", "object", "shape", "model"],
+    "answerIndex": 0,
+    "explanation": "The `type` keyword allows defining custom type aliases in TypeScript."
+  },
+  {
+    "id": 14,
+    "question": "Which hook performs side effects in React?",
+    "options": ["useState", "useContext", "useEffect", "useRef"],
+    "answerIndex": 2,
+    "explanation": "`useEffect` handles side effects like API calls or DOM updates."
+  },
+  {
+    "id": 15,
+    "question": "Which method converts a string to a number in JavaScript?",
+    "options": ["parseInt()", "parseFloat()", "Number()", "All of the above"],
+    "answerIndex": 3,
+    "explanation": "All three methods can convert a string to a number depending on context."
+  },
+  {
+    "id": 16,
+    "question": "Which tool checks your TypeScript code for errors?",
+    "options": ["tsc", "vite", "eslint", "babel"],
+    "answerIndex": 0,
+    "explanation": "`tsc` is the TypeScript compiler used for static type checking."
+  },
+  {
+    "id": 17,
+    "question": "Which keyword is used to create constants in TypeScript?",
+    "options": ["let", "var", "const", "define"],
+    "answerIndex": 2,
+    "explanation": "`const` declares a read-only reference to a value."
+  },
+  {
+    "id": 18,
+    "question": "Where do you define routes in a React app using React Router?",
+    "options": ["App.tsx", "routes.tsx", "index.html", "vite.config.ts"],
+    "answerIndex": 0,
+    "explanation": "Routes are usually defined in App.tsx using <Routes> and <Route> components."
+  },
+  {
+    "id": 19,
+    "question": "Which hook is used to store references to DOM elements?",
+    "options": ["useEffect", "useRef", "useState", "useMemo"],
+    "answerIndex": 1,
+    "explanation": "`useRef` creates a reference to a DOM element or value."
+  },
+  {
+    "id": 20,
+    "question": "What does JSX stand for?",
+    "options": ["JavaScript XML", "Java Syntax Extension", "JS Extend", "JavaScript XHTML"],
+    "answerIndex": 0,
+    "explanation": "JSX stands for JavaScript XML and allows writing HTML-like syntax in JS."
+  },
+  {
+    "id": 21,
+    "question": "Which lifecycle phase is `useEffect` similar to?",
+    "options": ["componentDidMount", "render", "shouldComponentUpdate", "constructor"],
+    "answerIndex": 0,
+    "explanation": "`useEffect` is like componentDidMount and componentDidUpdate."
+  },
+  {
+    "id": 22,
+    "question": "Which file is the entry point for a Vite React app?",
+    "options": ["App.tsx", "index.html", "main.tsx", "vite.config.ts"],
+    "answerIndex": 2,
+    "explanation": "`main.tsx` is the entry point where the React app is initialized."
+  },
+  {
+    "id": 23,
+    "question": "Which keyword allows exporting multiple values from a module?",
+    "options": ["export default", "module.exports", "export", "return"],
+    "answerIndex": 2,
+    "explanation": "The `export` keyword (not default) allows exporting multiple values."
+  },
+  {
+    "id": 24,
+    "question": "Which TypeScript feature allows function parameters to be optional?",
+    "options": ["?", "!", "optional()", "maybe()"],
+    "answerIndex": 0,
+    "explanation": "`?` marks a parameter as optional in a TypeScript function."
+  },
+  {
+    "id": 25,
+    "question": "How do you apply inline styles in React?",
+    "options": ["style='color:red'", "style={{ color: 'red' }}", "css='red'", "background: red"],
+    "answerIndex": 1,
+    "explanation": "React uses double braces `{{}}` for inline style objects."
+  },
+  {
+    "id": 26,
+    "question": "Which method stores data in the browser that persists after refresh?",
+    "options": ["sessionStorage", "cacheStorage", "localStorage", "cookieStorage"],
+    "answerIndex": 2,
+    "explanation": "`localStorage` keeps data even after the page reloads."
+  },
+  {
+    "id": 27,
+    "question": "What does `npm install` do?",
+    "options": ["Creates package.json", "Installs project dependencies", "Starts the server", "Updates React"],
+    "answerIndex": 1,
+    "explanation": "`npm install` installs all dependencies listed in package.json."
+  },
+  {
+    "id": 28,
+    "question": "Which file defines your project's dependencies?",
+    "options": ["vite.config.ts", "main.tsx", "package.json", "index.tsx"],
+    "answerIndex": 2,
+    "explanation": "`package.json` lists all dependencies and scripts."
+  },
+  {
+    "id": 29,
+    "question": "Which React concept allows reuse of logic across components?",
+    "options": ["Hooks", "Props", "JSX", "Events"],
+    "answerIndex": 0,
+    "explanation": "Hooks let you reuse logic like state or effects across components."
+  },
+  {
+    "id": 30,
+    "question": "Which method lets you add an item to an array in React state?",
+    "options": ["push()", "append()", "setState([...state, item])", "add()"],
+    "answerIndex": 2,
+    "explanation": "React state must be updated immutably using the spread operator."
+  },
+  {
+    "id": 31,
+    "question": "Which Firebase product stores structured data?",
+    "options": ["Authentication", "Firestore", "Storage", "Functions"],
+    "answerIndex": 1,
+    "explanation": "Cloud Firestore stores JSON-like structured data."
+  },
+  {
+    "id": 32,
+    "question": "What does `useState` return?",
+    "options": ["An object", "A class", "An array with value and setter", "A function"],
+    "answerIndex": 2,
+    "explanation": "`useState` returns a tuple: [state, setState]."
+  },
+  {
+    "id": 33,
+    "question": "Which tag is required in every HTML file?",
+    "options": ["<link>", "<meta>", "<html>", "<title>"],
+    "answerIndex": 2,
+    "explanation": "The <html> tag wraps all other HTML content."
+  },
+  {
+    "id": 34,
+    "question": "How do you output values in JSX?",
+    "options": ["{{value}}", "{value}", "$value", "v-bind:value"],
+    "answerIndex": 1,
+    "explanation": "JSX expressions are enclosed in single curly braces `{}`."
+  },
+  {
+    "id": 35,
+    "question": "Which symbol is used for optional chaining in JavaScript?",
+    "options": [".?", "?.", "?!", "::"],
+    "answerIndex": 1,
+    "explanation": "`?.` safely accesses properties without throwing errors."
+  },
+  {
+    "id": 36,
+    "question": "Which environment variable is needed to deploy Firebase?",
+    "options": [".env", "FIREBASE_CONFIG", "firebase.json", "firebaseKey"],
+    "answerIndex": 1,
+    "explanation": "`FIREBASE_CONFIG` holds keys required to initialize Firebase."
+  },
+  {
+    "id": 37,
+    "question": "Which method reads Firestore data in real time?",
+    "options": ["getDocs()", "onSnapshot()", "read()", "subscribe()"],
+    "answerIndex": 1,
+    "explanation": "`onSnapshot()` listens for real-time updates in Firestore."
+  },
+  {
+    "id": 38,
+    "question": "Which npm command creates a new Vite + React app?",
+    "options": ["npx vite create", "npm create vite@latest", "npx react-app", "vite init"],
+    "answerIndex": 1,
+    "explanation": "`npm create vite@latest` scaffolds a new Vite project."
+  },
+  {
+    "id": 39,
+    "question": "What is the use of `gh-pages` in React?",
+    "options": ["Backend support", "Security", "GitHub Pages deployment", "SEO"],
+    "answerIndex": 2,
+    "explanation": "`gh-pages` publishes your site to GitHub Pages easily."
+  },
+  {
+    "id": 40,
+    "question": "Which Vercel config file customizes the build?",
+    "options": ["vercel.json", "vite.config.ts", "config.json", "next.config.js"],
+    "answerIndex": 0,
+    "explanation": "`vercel.json` lets you define routes and build settings."
+  },
+  {
+    "id": 41,
+    "question": "Which tool formats your code?",
+    "options": ["ESLint", "TypeScript", "Prettier", "TSC"],
+    "answerIndex": 2,
+    "explanation": "Prettier enforces consistent formatting styles."
+  },
+  {
+    "id": 42,
+    "question": "Which extension shows Git changes in VS Code?",
+    "options": ["Live Server", "GitLens", "CodeSnap", "Prettier"],
+    "answerIndex": 1,
+    "explanation": "GitLens helps visualize Git changes in the editor."
+  },
+  {
+    "id": 43,
+    "question": "How do you deploy to Vercel?",
+    "options": ["vercel deploy", "npm run vercel", "vercel build", "git push"],
+    "answerIndex": 0,
+    "explanation": "`vercel deploy` pushes your project to Vercel hosting."
+  },
+  {
+    "id": 44,
+    "question": "Which import type prevents value imports in TypeScript?",
+    "options": ["import type", "import only", "type import", "readonly import"],
+    "answerIndex": 0,
+    "explanation": "`import type` is used when you only want to import types."
+  },
+  {
+    "id": 45,
+    "question": "What does `npm run dev` do in Vite?",
+    "options": ["Starts development server", "Builds app", "Compiles TypeScript", "Runs tests"],
+    "answerIndex": 0,
+    "explanation": "`npm run dev` launches Vite’s hot-reloading dev server."
+  },
+  {
+    "id": 46,
+    "question": "How do you fork a repo on GitHub?",
+    "options": ["Click Fork", "Run git fork", "Clone it", "Request permission"],
+    "answerIndex": 0,
+    "explanation": "Forking creates your own copy on GitHub to edit freely."
+  },
+  {
+    "id": 47,
+    "question": "Which tag is used for semantic main content?",
+    "options": ["<div>", "<body>", "<main>", "<section>"],
+    "answerIndex": 2,
+    "explanation": "<main> semantically describes the central content area."
+  },
+  {
+    "id": 48,
+    "question": "What does `npm audit` check?",
+    "options": ["Code quality", "Security issues", "Syntax", "File size"],
+    "answerIndex": 1,
+    "explanation": "`npm audit` finds security vulnerabilities in dependencies."
+  },
+  {
+    "id": 49,
+    "question": "How can you make a repo public on GitHub?",
+    "options": ["Settings > Change visibility", "Commit push public", "Change README", "Make new repo"],
+    "answerIndex": 0,
+    "explanation": "GitHub settings allow you to switch repo visibility."
+  },
+  {
+    "id": 50,
+    "question": "Which method adds a document to Firestore?",
+    "options": ["add()", "createDoc()", "addDoc()", "push()"],
+    "answerIndex": 2,
+    "explanation": "`addDoc()` inserts a new document into a collection."
+  }
+]
+
