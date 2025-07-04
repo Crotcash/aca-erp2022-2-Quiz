@@ -1,9 +1,7 @@
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import {getFirestore, collection, addDoc } from "firebase/firestore";
-import questions from "./questions.json";
-
+import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -20,30 +18,6 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig); 
-
-const db = getFirestore(app);
-
-// Upload each question to Firestore
-const importQuestions = async () => {
-  const collectionRef = collection(db, "questions");
-
-  for (const q of questions) {
-    try {
-      await addDoc(collectionRef, q);
-      console.log(`Imported: ${q.question}`);
-    } catch (err) {
-      console.error(`Failed to import: ${q.question}`, err);
-    }
-  }
-
-  console.log("All questions uploaded.");
-};
-
-importQuestions();
-
-
-
-
-
-
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
+export const auth = getAuth(app);

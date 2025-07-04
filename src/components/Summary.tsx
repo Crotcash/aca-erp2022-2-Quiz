@@ -1,11 +1,11 @@
-
-import { questions } from "../data/questions"; 
+import { Question } from "../type";
 
 interface Props {
   answers: number[];
+  questions: Question[];
 }
 
-const Summary = ({ answers }: Props) => {
+const Summary = ({ answers, questions }: Props) => {
   const score = localStorage.getItem("quizScore");
 
   return (
@@ -15,7 +15,7 @@ const Summary = ({ answers }: Props) => {
 
       <h3>Summary</h3>
       <ul>
-        {questions.map((q, i) => (
+        {questions.map((q: Question, i: number) => (
           <li key={q.id}>
             <strong>{q.question}</strong><br />
             Correct Answer: {q.options[q.answerIndex]}<br />
